@@ -1204,3 +1204,44 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+   
+   .login{
+
+      background-image: url(/images/fondo.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+    }
+    .formulario{
+      background: rgba(42, 42, 43, 0.623);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.600);
+    }
+    .form-control{
+      background: rgba(0, 0, 0, 0.432);
+    }
+.ingresar{
+
+  background: #031542bd;
+  font-size: 15px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.600);
+  transition: 0.5s ease-in;
+
+}
+.ingresar:hover{
+  color: white;
+}
+.olvide{
+  color: white;
+  text-decoration-style: none;
+  text-decoration-line: none;
+
+}
+.olvide:hover{
+  color: white;
+  text-decoration-style: none;
+  text-decoration-line: none;
+  cursor: pointer;
+}
