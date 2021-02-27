@@ -1,10 +1,10 @@
 <?php
-require ("ConexionBD.php");
+require ("ConexioBD.php");
 
 $nombre = $_POST['user'];
 $password = $_POST['pass'];
 
-$filas = $db->query('SELECT * FROM area;');
+$filas = $db->query('SELECT * FROM usuarios where N_carnet==$user AND contrasena == $password;');
 
 foreach($filas as $fila){
     print_r($fila);

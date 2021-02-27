@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-02-2021 a las 19:24:01
+-- Tiempo de generación: 27-02-2021 a las 23:39:53
 -- Versión del servidor: 10.4.17-MariaDB
--- Versión de PHP: 7.4.15
+-- Versión de PHP: 8.0.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -46,6 +46,13 @@ CREATE TABLE `area` (
   `Rec_Perteneciente` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Volcado de datos para la tabla `area`
+--
+
+INSERT INTO `area` (`Id_Area`, `Des_Area`, `Rec_Perteneciente`) VALUES
+('CCTNG', 'CIENCIA', 'LMNAS');
+
 -- --------------------------------------------------------
 
 --
@@ -70,6 +77,13 @@ CREATE TABLE `recinto` (
   `DESCRIPCION` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Volcado de datos para la tabla `recinto`
+--
+
+INSERT INTO `recinto` (`ID_RECINTO`, `DESCRIPCION`) VALUES
+('LMNAS', 'Las minas');
+
 -- --------------------------------------------------------
 
 --
@@ -80,6 +94,13 @@ CREATE TABLE `roles_usuarios` (
   `ID_Rol` smallint(6) NOT NULL,
   `Descripcion` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `roles_usuarios`
+--
+
+INSERT INTO `roles_usuarios` (`ID_Rol`, `Descripcion`) VALUES
+(1, 'Super');
 
 -- --------------------------------------------------------
 
@@ -93,8 +114,15 @@ CREATE TABLE `usuarios` (
   `Apellido` varchar(40) DEFAULT NULL,
   `Id_Area` varchar(10) DEFAULT NULL,
   `contrasena` varchar(25) DEFAULT NULL,
-  `Tipo_Usuario` smallint(20) DEFAULT NULL
+  `Tipo_Usuario` smallint(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`N_carnet`, `Nombre`, `Apellido`, `Id_Area`, `contrasena`, `Tipo_Usuario`) VALUES
+('19-005381-0300', 'Bielka', 'Feliciano', 'CCTNG', 'estoesunaprueba', 1);
 
 --
 -- Índices para tablas volcadas
@@ -156,6 +184,18 @@ ALTER TABLE `accesos_plat`
 --
 ALTER TABLE `denuncias`
   MODIFY `Id_D` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `roles_usuarios`
+--
+ALTER TABLE `roles_usuarios`
+  MODIFY `ID_Rol` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `Tipo_Usuario` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Restricciones para tablas volcadas
