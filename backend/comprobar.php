@@ -4,12 +4,14 @@ require ("ConexioBD.php");
 $nombre = $_POST['user'];
 $password = $_POST['pass'];
 
-$filas = $db->query('SELECT * FROM usuarios where N_carnet==$user AND contrasena == $password;');
+$filas = $db->query("SELECT * FROM usuarios WHERE N_carnet ='$nombre' AND contrasena='$password';");
 
-foreach($filas as $fila){
-    print_r($fila);
+if(!$filas){
+  echo "Usuario no existe ";
 }
-
+else{
+  print "Bienvenido"; 
+}
 /*		require_once 'conexion.php';
   $conn = dbConnect();
  
