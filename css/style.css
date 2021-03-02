@@ -1207,7 +1207,7 @@ h1, h2, h3, h4, h5,
    
    .login{
 
-      background-image: url(/images/fondo.jpg);
+      background-image: url(/Plataforma_violencia/images/Fondo.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -1224,7 +1224,7 @@ h1, h2, h3, h4, h5,
     }
 .ingresar{
 
-  background: #031542bd;
+  background: #041b53bd;
   font-size: 15px;
   box-shadow: 0 0 30px rgba(0,0,0,0.600);
   transition: 0.5s ease-in;
