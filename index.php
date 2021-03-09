@@ -72,7 +72,7 @@
       </header>
 
       
-      <div class="site-section-cover" style="background-image: url('images/No-modificado.png');">
+      <div class="site-section-cover overlay" style="background-image: url('images/No-modificado.png');">
         
         <div class="container">
           <div class="row align-items-center justify-content-center">
@@ -111,21 +111,21 @@
             <div class="col-lg-4">
               <div class="box small h-100">
                 <div class="d-flex align-items-center mb-2">
-                  <div class="img"><img src="images/cel.jpg" class="img-fluid" alt="Image"></div>
+                  <div class="img"><img src="images/tipos_de_violencia.jpg" class="img-fluid" alt="Image"></div>
                   <div class="text">
                     <a href="#" class="category">Tipos de violencia</a>
                     <h3><a href="#">Como saber si vivo violencia</a></h3>
                   </div>
                 </div>
                 <div class="d-flex align-items-center mb-2">
-                  <div class="img"><img src="images/lazo.jpg" class="img-fluid" alt="Image"></div>
+                  <div class="img"><img src="images/unnamed_(1).png" class="img-fluid" alt="Image"></div>
                   <div class="text">
                     <a href="#" class="category">Descubrí si vivís violencia</a>
                     <h3><a href="#">Realiza tu test</a></h3>
                   </div>
                 </div>
                 <div class="d-flex align-items-center">
-                  <div class="img"><img src="images/porcentaje.jpg" class="img-fluid" alt="Image"></div>
+                  <div class="img"><img src="images/denuncia-aqui.png" class="img-fluid" alt="Image"></div>
                   <div class="text">
                     <a href="IniciarSesion.php" class="category">Denunciá aquí</a>
                     <h3><a href="IniciarSesion.php">Llena el siguiente formato, Por favor</a></h3>
