@@ -90,20 +90,19 @@
             <div class="col-lg-8">
               <div class="box h-100">
                 <div class="d-flex align-items-center">
-                  <div class="img"><img src="images/logo-ceimm.png" class="img-fluid" alt="Image"></div>
+                  <div class="img"><img src="images/log-uraccan.png" class="img-fluid" alt="Image"></div>
                   <div class="text">
                     <a href="#" class="category">Informacion</a>
                     <h3><a href="#">¿Quiénes somos?</a></h3>
-                    <p>El Centro de Estudios e Información de la Mujer Multiétnica (CEIMM), de la Universidad de las Regiones Autónomas de la Costa Caribe Nicaragüense (URACCAN), creado en el año 2002, con la misión, en primer término, de promover la institucionalización del perspectiva intercultural de genero 
-                    género en el quehacer de la Universidad comunitaria intercultural...</p>
+                    <p>DHAMBA es una plataforma destinada a facilitar el proceso de denuncia sobre violencia y discriminación en la comunidad universitaria de URACCAN Recinto - Las Minas...</p>
                     <p class="mb-0">
-                      <span class="brand-react"></span>
+                      <span class="brand-ceimm"></span>
                       <span class="brand-logo-ceimm"></span>
                     </p>
                     <p class="meta">
                       <span class="mr-2 mb-2">24 / 7</span>
-                      <span class="mr-2 mb-2">Avanzar</span>
-                      <span class="mr-2 mb-2">16 oct 2020</span>
+                      <span class="mr-2 mb-2"></span>
+                      <span class="mr-2 mb-2">10 Marzo 2021</span>
                     </p>
                   </div>
                 </div>
@@ -155,9 +154,9 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <div class="card" style="width: 30rem;">
+                <div class="card" style="width: 20rem;">
                   <img src="images/logo-ceimm.png" class="card-img-top" alt="...">
-                  <div class="card-body" style="background-color: rgb(250, 250, 250);">
+                  <div class="card-body" style="background-color: rgb(231, 231, 231);">
                     <p class="card-text" style="text-align: center;">CEIMM</p>
                   </div>
                 </div>
@@ -165,7 +164,7 @@
               <div class="col">
                 <div class="card" style="width: 30rem;">
                   <img src="images/DIE.png" class="card-img-top" alt="...">
-                  <div class="card-body"  style="background-color: rgb(250, 250, 250);">
+                  <div class="card-body"  style="background-color: rgb(231, 231, 231);">
                     <p class="card-text" style="text-align: center;">DIE</p>  
                   </div>
                 </div>
