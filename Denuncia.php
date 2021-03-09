@@ -9,7 +9,7 @@ include("conexion.php");
       {  
            if(empty($_POST["usuario"]) || empty($_POST["password"]))  
            {  
-                $message = '<label>Todos los campos son requeridos; color:white; </label>';  
+                $message = '<label>Todos los campos son requeridos; </label>';  
            }  
            else  
            {  
@@ -65,7 +65,7 @@ include("conexion.php");
 <div class="container">
 
 <div class="container">
-<h3>Iniciar sesión</h3>
+<h3 style= "text-align:center;">Universidad De Las Regiones Autonomas De La Costa Caribe Nicaraguense URACCAN </h3>
   <hr>
   <div class="row">
     <div class="col-12 col-md-6"> 
@@ -81,6 +81,35 @@ include("conexion.php");
              
                 <form method="post">  
                 <div class="form-group">
+                     <h3>Formato de recepcion del caso</h3>
+    <label for="Nombres y Apellidos" style= "font-size: 24px;">Nombres y Apellidos</label>
+    <input type="text" name="Nombre Y Apellido" class="form-control" placeholder="Ingrese su nombre y apellido" />  
+				</div>
+                    <div class="form-group">
+    <label for="Edad" style= "font-size: 24px;">Edad</label>
+    <input type="text" name="Edad" class="form-control" placeholder="Ingrese su edad" />  
+				</div>
+                    <div class="form-group">
+    <label for="Cedula" style= "font-size: 24px;">Cedula</label>
+    <input type="text" name="Cedula" class="form-control" placeholder="Ingrese el numero de su cedula" />  
+				</div>
+                    <div class="form-group">
+    <label for="Numero de celular" style= "font-size: 24px;">Numero de celular</label>
+    <input type="text" name="Numero de celular" class="form-control" placeholder="Ingrese el numero de su celular" />  
+				</div>
+                    <div class="form-group">
+    <label for="Étnia" style= "font-size: 24px;">Étnia</label>
+    <input type="text" name="Etnia" class="form-control" placeholder="A que étnia pertenece" />  
+				</div>
+                    <div class="form-group">
+    <label for="Sexo" style= "font-size: 24px;">Sexo</label>
+    <input type="text" name="Sexo" class="form-control" placeholder="Identidad Sexual" />  
+				</div>
+                    <div class="form-group">
+    <label for="Descripcion del caso" style= "font-size: 24px;">Descripcion del caso</label>
+    <textarea style= "width: 100%; height: 130px"></textarea>  
+				</div>
+                <div class="form-group">
     <label for="Usuario" style= "font-size: 24px;">Usuario</label>
     <input type="text" name="usuario" class="form-control" placeholder="Ingrese usuario" />  
 				</div>
@@ -91,7 +120,7 @@ include("conexion.php");
 				</div>
                       
                      <br />  
-                     <input type="submit" style="background-color: blue; font-size: 22px;" name="login" class="btn btn-info" value="Ingresar" />  
+                     <input type="submit" style="background-color: blue; font-size: 22px;" name="login" class="btn btn-info" value="Enviar Denuncia" />  
                 </form>  
             
       <!-- Fin Contenido --> 

@@ -59,7 +59,6 @@
                   <li class="active"><a href="index.html" class="nav-link">INICIO</a></li>
                   <li><a href="test.html" class="nav-link">Test</a></li>
                   <li><a href="testimonios.html" class="nav-link">Testimonios</a></li>
-                  <li><a href="blog.html" class="nav-link">Blog informativo</a></li>
                   <li><a href="about.html" class="nav-link">Información</a></li>
                   <li><a href="contact.html" class="nav-link">Contactos</a></li>
                 </ul>
@@ -73,7 +72,7 @@
       </header>
 
       
-      <div class="site-section-cover overlay" style="background-image: url('images/No-modificado.png');">
+      <div class="site-section-cover" style="background-image: url('images/No-modificado.png');">
         
         <div class="container">
           <div class="row align-items-center justify-content-center">
@@ -129,8 +128,8 @@
                 <div class="d-flex align-items-center">
                   <div class="img"><img src="images/porcentaje.jpg" class="img-fluid" alt="Image"></div>
                   <div class="text">
-                    <a href="#" class="category">Denunciá aquí</a>
-                    <h3><a href="#">llena el siguiente formato</a></h3>
+                    <a href="IniciarSesion.php" class="category">Denunciá aquí</a>
+                    <h3><a href="IniciarSesion.php">Llena el siguiente formato, Por favor</a></h3>
                   </div>
                 </div>
               </div>
