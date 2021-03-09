@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
 
   </head>
-  <a href="login.html" class="btn-flotante">Realizar Test Violencia</a>
+  <a href="Denuncia.php" class="btn-flotante">Realizar Test Violencia</a>
   <body>
 
     
