@@ -274,7 +274,7 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
-                <span class="icon-star text-warning"></span>
+                <span class="icon-star-o text-warning"></span>
               </div>
               <blockquote class="mb-4">
                 <p>"Estudiante carrera Ciencias Sociales con mención en Desarrollo Local 5to año URACCAN recinto Las Minas"</p>
