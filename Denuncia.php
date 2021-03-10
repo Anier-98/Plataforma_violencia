@@ -13,7 +13,7 @@ include("conexion.php");
            }  
            else  
            {  
-                $query = "SELECT * FROM usuarios WHERE Nombre = :usuario AND contrasena = :password";  
+                $query = "SELECT * FROM usuarios WHERE N_carnet = :usuario AND contrasena = :password";  
                 $statement = $connect->prepare($query);  
                 $statement->execute(  
                      array(  
@@ -84,16 +84,16 @@ include("conexion.php");
 
                 <div style="display:inline-block;float:left;"> 
                 <div class="form-group">
-                <label for="Numero de celular" style= "font-size: 24px;">Numero de celular</label>
-                <input type="text" name="nombres" class="form-control" placeholder="Nombres y apellidos" />  
+                <label for="" style= "font-size: 24px;">Nombres y apellidos</label>
+                <input type="text" name="nombres" class="form-control" style="width:100%;" placeholder="Nombres y apellidos" />  
                 </div>
                 <div class="form-group">
-                <label for="Numero de celular" style= "font-size: 24px;">Numero de celular</label>
-                <input type="text" name="Edad" class="form-control" placeholder="Ingrese su edad" />
+                <label for="" style= "font-size: 24px;">Numero de Cédula</label>
+                <input type="text" name="cedula" class="form-control" placeholder="Cédula" />
                </div>
                <div class="form-group">
-               <label for="Cedula" style= "font-size: 24px;">Cédula</label>
-               <input type="text" name="Cedula" class="form-control" placeholder="Ingrese el numero de su cedula" />  
+               <label for="Cedula" style= "font-size: 24px;">Número de teléfono</label>
+               <input type="number" name="Celular" class="form-control" placeholder="Teléfono" />  
                </div>
                
                 </div>
@@ -101,22 +101,37 @@ include("conexion.php");
 
                 <div style="display:inline-block;float:right;">
                 <div class="form-group">
-               <label for="Numero de celular" style= "font-size: 24px;">Numero de celular</label>
-               <input type="text" name="Numero de celular" class="form-control" placeholder="Ingrese el numero de su celular" />  
+               <label for="" style= "font-size: 24px;">Edad</label>
+               <input type="number" name="edad" class="form-control" placeholder="Edad" />  
 			</div>
                 <div class="form-group">
                     <label for="Étnia" style= "font-size: 24px;">Étnia</label>
-                    <input type="text" name="Etnia" class="form-control" placeholder="A que étnia pertenece" />  
+                    <select name="etnia" id="etn" class="form-control">
+                     <option value="Mayangna">Mayangna</option>
+                     <option value="Miskito">Miskito</option>
+                     <option value="Mestizo">Mestizo</option>
+                     <option value="Creoles">Creoles</option>
+                     <option value="O">Otro</option>
+                </select>  
 				</div>
                     <div class="form-group">
                <label for="Sexo" style= "font-size: 24px;">Sexo</label>
-               <input type="text" name="Sexo" class="form-control" placeholder="Identidad Sexual" />  
+
+                <select name="sexo" id="set" class="form-control">
+                     <option value="M">Masculino</option>
+                     <option value="F">Femenino</option>
+                     <option value="O">Otro</option>
+                </select>
+
+
+              <!-- <input type="text" name="Sexo" class="form-control" placeholder="Sexo" />  -->
 				</div>
                 </div>
   
                     <div class="form-group">
-    <label for="Descripcion del caso" style= "font-size: 24px;">Descripcion del caso</label>
-    <textarea style= "width: 100%; height: 130px"></textarea>  
+                         <label for="" id="lbf" ></label>
+    <label for="Descripcion del caso"  style= "font-size: 24px;">Descripcion del caso</label>
+    <textarea name="caso" style= "width: 100%; height: 130px" placeholder="Exprese su caso"></textarea>  
 				</div>
                 <div class="form-group">
     <label for="Usuario" style= "font-size: 24px;">Usuario</label>
@@ -147,9 +162,11 @@ include("conexion.php");
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script> 
 <script src="assets/js/vendor/popper.min.js"></script> 
 <script src="dist/js/bootstrap.min.js"></script>
+<script src="js/dt.js">
+
+</script>
 </body>
 </html>
