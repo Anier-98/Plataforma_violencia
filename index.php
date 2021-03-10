@@ -127,8 +127,8 @@
                 <div class="d-flex align-items-center">
                   <div class="img"><img src="images/denuncia-aqui.png" class="img-fluid" alt="Image"></div>
                   <div class="text">
-                    <a href="IniciarSesion.php" class="category">Denunciá aquí</a>
-                    <h3><a href="IniciarSesion.php">Llena el siguiente formato, Por favor</a></h3>
+                    <a href="Denuncia.php" class="category">Denunciá aquí</a>
+                    <h3><a href="Denuncia.php">Llena el siguiente formato, Por favor</a></h3>
                   </div>
                 </div>
               </div>
