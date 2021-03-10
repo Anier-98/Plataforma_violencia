@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-02-2021 a las 23:39:53
+-- Tiempo de generación: 10-03-2021 a las 00:55:10
 -- Versión del servidor: 10.4.17-MariaDB
--- Versión de PHP: 8.0.2
+-- Versión de PHP: 7.4.15
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -63,7 +63,12 @@ CREATE TABLE `denuncias` (
   `Id_D` int(11) NOT NULL,
   `N_carnet` varchar(25) DEFAULT NULL,
   `Fecha` datetime DEFAULT NULL,
-  `Descripcion` varchar(120) DEFAULT NULL
+  `Nombre_Apellido` varchar(60) DEFAULT NULL,
+  `N_cedula` varchar(22) DEFAULT NULL,
+  `Descripcion` varchar(300) DEFAULT NULL,
+  `N_celular` int(11) DEFAULT NULL,
+  `Etnia` varchar(15) DEFAULT NULL,
+  `Sexo` varchar(2) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -114,7 +119,7 @@ CREATE TABLE `usuarios` (
   `Apellido` varchar(40) DEFAULT NULL,
   `Id_Area` varchar(10) DEFAULT NULL,
   `contrasena` varchar(25) DEFAULT NULL,
-  `Tipo_Usuario` smallint(6) NOT NULL
+  `Tipo_Usuario` smallint(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -184,18 +189,6 @@ ALTER TABLE `accesos_plat`
 --
 ALTER TABLE `denuncias`
   MODIFY `Id_D` int(11) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT de la tabla `roles_usuarios`
---
-ALTER TABLE `roles_usuarios`
-  MODIFY `ID_Rol` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT de la tabla `usuarios`
---
-ALTER TABLE `usuarios`
-  MODIFY `Tipo_Usuario` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Restricciones para tablas volcadas
