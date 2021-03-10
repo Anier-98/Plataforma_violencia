@@ -46,7 +46,7 @@
 
             <div class="col-3">
               <div class="site-logo">
-                <a href="index.html"><strong>DHAMBA</strong></a>
+                <a href="index.php"><strong>DHAMBA</strong></a>
               </div>
             </div>
 
@@ -56,10 +56,10 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">INICIO</a></li>
+                  <li class="active"><a href="index.php" class="nav-link">INICIO</a></li>
                   <li><a href="test.html" class="nav-link">Test</a></li>
                   <li><a href="testimonios.html" class="nav-link">Testimonios</a></li>
-                  <li><a href="about.html" class="nav-link">Información</a></li>
+                  <li><a href="Informacion.html" class="nav-link">Información</a></li>
                   <li><a href="contact.html" class="nav-link">Contactos</a></li>
                 </ul>
               </nav>
