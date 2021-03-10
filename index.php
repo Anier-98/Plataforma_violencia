@@ -59,7 +59,7 @@
                   <li class="active"><a href="index.php" class="nav-link">INICIO</a></li>
                   <li><a href="test.html" class="nav-link">Test</a></li>
                   <li><a href="testimonios.html" class="nav-link">Testimonios</a></li>
-                  <li><a href="Informacion.html" class="nav-link">Información</a></li>
+                  <li><a href="marcojuridico.html" class="nav-link">Información</a></li>
                   <li><a href="contact.html" class="nav-link">Contactos</a></li>
                 </ul>
               </nav>
