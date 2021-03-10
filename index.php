@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
 
   </head>
-  <a href="" class="btn-flotante">Realizar Test Violencia</a>
+  <a href="test.html" class="btn-flotante">Realizar Test Violencia</a>
   <body>
 
     
@@ -113,7 +113,7 @@
                 <div class="d-flex align-items-center mb-2">
                   <div class="img"><img src="images/tipos_de_violencia.jpg" class="img-fluid" alt="Image"></div>
                   <div class="text">
-                    <a href="#" class="category">Tipos de violencia</a>
+                    <a href="tipos.html" class="category">Tipos de violencia</a>
                     <h3><a href="#">Como saber si vivo violencia</a></h3>
                   </div>
                 </div>
@@ -128,7 +128,7 @@
                   <div class="img"><img src="images/denuncia-aqui.png" class="img-fluid" alt="Image"></div>
                   <div class="text">
                     <a href="Denuncia.php" class="category">Denunciá aquí</a>
-                    <h3><a href="Denuncia.php">Llena el siguiente formato, Por favor</a></h3>
+                    <h3><a href="Denuncia.php">Llena el siguiente formato, Pox|r favor</a></h3>
                   </div>
                 </div>
               </div>
