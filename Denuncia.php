@@ -84,11 +84,11 @@ include("conexion.php");
 
                 <div style="display:inline-block;float:left;"> 
                 <div class="form-group">
-                <label for="Numero de celular" style= "font-size: 24px;">Numero de celular</label>
+                <label for="Nombre Y Apellido" style= "font-size: 24px;">Nombre Y Apellido</label>
                 <input type="text" name="nombres" class="form-control" placeholder="Nombres y apellidos" />  
                 </div>
                 <div class="form-group">
-                <label for="Numero de celular" style= "font-size: 24px;">Numero de celular</label>
+                <label for="Edad" style= "font-size: 24px;">Edad</label>
                 <input type="text" name="Edad" class="form-control" placeholder="Ingrese su edad" />
                </div>
                <div class="form-group">
