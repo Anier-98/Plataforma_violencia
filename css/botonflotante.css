@@ -18,6 +18,7 @@
 	background-color: #a03105; /* Color de fondo al pasar el cursor */
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.411);
 	transform: translateY(-7px);
+	color: #e7b0b0; /* Color del texto */
 }
 @media only screen and (max-width: 600px) {
  	.btn-flotante {

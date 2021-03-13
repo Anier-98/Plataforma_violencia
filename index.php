@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="css/style.css">
 
   </head>
-  <a href="test.html" class="btn-flotante">Realizar Test Violencia</a>
+  <a href="Denuncia.php" class="btn-flotante">Realizar denuncia</a>
+
   <body>
 
     
@@ -59,7 +60,7 @@
                   <li class="active"><a href="index.php" class="nav-link">INICIO</a></li>
                   <li><a href="test.html" class="nav-link">Test</a></li>
                   <li><a href="testimonios.html" class="nav-link">Testimonios</a></li>
-                  <li><a href="marcojuridico.html" class="nav-link">Marco Juridico</a></li>
+                  <li><a href="marcojuridico.html" class="nav-link">Marco jurídico</a></li>
                   <li><a href="contact.html" class="nav-link">Contactos</a></li>
                 </ul>
               </nav>
@@ -72,13 +73,12 @@
       </header>
 
       
-      <div class="site-section-cover overlay" style="background-image: url('images/No-modificado.png');">
-        
+      <div class="site-section-cover overlay" style="background-image: url('images/denuce.png');">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-10 text-center">
               <h1><strong>DHAMBA</strong><strong></strong></h1>
-              <h1>Contra la violencia y discriminacion</h1>
+              <h1>Contra la violencia y discriminación</h1>
             </div>
           </div>
         </div>
@@ -90,34 +90,30 @@
             <div class="col-lg-8">
               <div class="box h-100">
                 <div class="d-flex align-items-center">
-                  <div class="img"><img src="images/log-uraccan.png" class="img-fluid" alt="Image"></div>
+                  <div class="img"><img src="images/uracc.png" class="img-fluid" alt="Image"></div>
                   <div class="text">
-                    <a href="#" class="category">Informacion</a>
+                    <a href="#" class="category">Información</a>
                     <h3><a href="#">¿Quiénes somos?</a></h3>
-                    <p>DHAMBA es una plataforma destinada a facilitar el proceso de denuncia sobre violencia y discriminación en la comunidad universitaria de URACCAN Recinto - Las Minas...</p>
+                    <p class="mb-1">DHAMBA es una plataforma destinada a facilitar el proceso de denuncia sobre violencia y discriminación en la comunidad universitaria de URACCAN Recinto - Las Minas.</p>
                     <p class="mb-0">
                       <span class="brand-ceimm"></span>
                       <span class="brand-logo-ceimm"></span>
-                    </p>
-                    <p class="meta">
-                      <span class="mr-2 mb-2">24 / 7</span>
-                      <span class="mr-2 mb-2"></span>
-                      <span class="mr-2 mb-2">10 Marzo 2021</span>
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-4">
               <div class="box small h-100">
-                <div class="d-flex align-items-center mb-2">
+                <div class="d-flex align-items-center mb-4 mt-3">
                   <div class="img"><img src="images/tipos_de_violencia.jpg" class="img-fluid" alt="Image"></div>
                   <div class="text">
                     <a href="tipos.html" class="category">Tipos de violencia</a>
-                    <h3><a href="#">Como saber si vivo violencia</a></h3>
+                    <h3><a href="#">¿Como saber si vivo violencia?</a></h3>
                   </div>
                 </div>
-                <div class="d-flex align-items-center mb-2">
+                <div class="d-flex align-items-center mb-4">
                   <div class="img"><img src="images/unnamed_(1).png" class="img-fluid" alt="Image"></div>
                   <div class="text">
                     <a href="#" class="category">Descubrí si vivís violencia</a>
@@ -137,7 +133,6 @@
         </div>
       </div>
       
-
       <div class="site-section">
         <div class="container">
           <div class="row">
@@ -148,69 +143,33 @@
               </div>
             </div>  
           </div>
-
-
-
-          <div class="container">
+          <div class="container" style="display:grid; place-items:center;">
             <div class="row">
+
               <div class="col">
                 <div class="card" style="width: 20rem;">
                   <img src="images/logo-ceimm.png" class="card-img-top" alt="...">
                   <div class="card-body" style="background-color: rgb(231, 231, 231);">
-                    <p class="card-text" style="text-align: center;">CEIMM</p>
+                    <strong class="card-text" style="width:100%;display:inline-block;text-align: center;color:#0779e4;font-size:22px; ">CEIM</strong>
                   </div>
                 </div>
               </div>
+
               <div class="col">
                 <div class="card" style="width: 30rem;">
                   <img src="images/DIE.png" class="card-img-top" alt="...">
                   <div class="card-body"  style="background-color: rgb(231, 231, 231);">
-                    <p class="card-text" style="text-align: center;">DIE</p>  
+                  <strong class="card-text" style="width:100%;display:inline-block;text-align: center;color:#0779e4;font-size:22px;">DIE</strong>
                   </div>
                 </div>
               </div>
-            </div>
-
-<!--
-          <div class="col align-items-stretch">
-            <div class="col-lg-3">
-              <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text"></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">CEIMM</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">die</p>
-                </div>
-              </div>
-            </div>
-            
-           <!-- <div class="col-lg-3">
-              <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text"></p>
-                </div>
-              </div>
             </div>  
-         -->   
           </div>
         </div>
+      
       </div>               
-    </div>      
+    </div>  
+
       <div class="site-section bg-light">
       <div class="container">
         <div class="row justify-content-center">
@@ -236,7 +195,7 @@
                 <p>"Estudiante de ingeniería en sistemas 5to año URACCAN recinto Las Minas, coordinador de equipo"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
-                <img src="images/anier.jpg" alt="Image" class="img-fluid mr-3">
+                <img src="images/Anierl.png" alt="Image" class="img-fluid mr-3">
                 <div class="author-name">
                   <span class="d-block">Anier Flores</span>
                   <span>Fronted</span>
@@ -258,7 +217,7 @@
                 <p>"Docente facilitadora, maestra en comunicación intercultural, defensora de derechos humanos"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
-                <img src="images/ada.jpeg" alt="Image" class="img-fluid mr-3">
+                <img src="images/AAda.png" alt="Image" class="img-fluid mr-3">
                 <div class="author-name">
                   <span class="d-block">Ada Madrigal</span>
                   <span>Coordinadora proyecto CEIMM</span>
@@ -280,7 +239,7 @@
                 <p>"Estudiante carrera Ciencias Sociales con mención en Desarrollo Local 5to año URACCAN recinto Las Minas"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
-                <img src="images/hildred.jpeg" alt="Image" class="img-fluid mr-3">
+                <img src="images/Hildredd.png" alt="Image" class="img-fluid mr-3">
                 <div class="author-name">
                   <span class="d-block">Hildred García</span>
                   <span >Colaboradora</span>
@@ -302,7 +261,7 @@
                 <p>"Estudiante de ingeniería en sistemas 3er año URACCAN recinto Las Minas, colaboradora en desarrollo"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
-                <img src="images/bielka.jpg" alt="Image" class="img-fluid mr-3">
+                <img src="images/Bielka.png" alt="Image" class="img-fluid mr-3">
                 <div class="author-name">
                   <span class="d-block">Bielka Feliciano</span>
                   <span>Backend</span>
@@ -324,7 +283,7 @@
                 <p>"Estudiante de ingeniería en sistemas 3er año URACCAN recinto Las Minas, colaboradora en desarrollo"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
-                <img src="images/denia.jpg" alt="Image" class="img-fluid mr-3">
+                <img src="images/Dennia.png" alt="Image" class="img-fluid mr-3">
                 <div class="author-name">
                   <span class="d-block">Denia Ibarra</span>
                   <span>Backend</span>
@@ -343,7 +302,7 @@
                 <span class="icon-star text-warning"></span>
               </div>
               <blockquote class="mb-4">
-                <p>"ingeniero en sistemas, estudiante de contabilidad recinto URACCAN - Las Minas"</p>
+                <p>"Ingeniero en sistemas, estudiante de contabilidad recinto URACCAN - Las Minas"</p>
               </blockquote>
               <div class="d-flex v-card align-items-center">
                 <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3">
