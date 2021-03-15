@@ -1,0 +1,31 @@
+#main{
+    display: grid;
+    place-items: center;
+    font-size: 23px;
+    border-width: 1px;
+    border-color: green;
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 38, 38);
+    box-shadow: 5px 10px 10px rgba(77, 68, 209, 0.411);
+    text-align: center;
+}
+#lf{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 24px;
+    color: rgb(24, 23, 23);
+}
+#frm{
+    box-shadow: 5px 15px 12px rgba(77, 68, 209, 0.411);
+    padding: 25px;
+    font-size: 22px;
+}
+.form-group{
+    display: grid;
+    place-items: center;
+}
+#sbm{
+    background-color: rgb(19, 100, 5);
+    color: white;
+    font-size: 19px;
+}

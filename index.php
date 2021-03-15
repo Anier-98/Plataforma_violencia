@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
 
   </head>
-  <a href="Denuncia.php" class="btn-flotante">Realizar denuncia</a>
+  <a href="Denuncia.html" class="btn-flotante">Realizar denuncia</a>
 
   <body>
 
@@ -58,6 +58,7 @@
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li class="active"><a href="index.php" class="nav-link">INICIO</a></li>
+                  <li><a href="Denuncia.html" class="nav-link">Denuncia</a></li>
                   <li><a href="test.html" class="nav-link">Test</a></li>
                   <li><a href="testimonios.html" class="nav-link">Testimonios</a></li>
                   <li><a href="marcojuridico.html" class="nav-link">Marco jurídico</a></li>
@@ -191,6 +192,7 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
+              
               <blockquote class="mb-4">
                 <p>"Estudiante de ingeniería en sistemas 5to año URACCAN recinto Las Minas, coordinador de equipo"</p>
               </blockquote>
@@ -220,7 +222,7 @@
                 <img src="images/AAda.png" alt="Image" class="img-fluid mr-3">
                 <div class="author-name">
                   <span class="d-block">Ada Madrigal</span>
-                  <span>Coordinadora proyecto CEIMM</span>
+                  <span>Coordinadora proyecto</span>
                 </div>
               </div>
             </div>
