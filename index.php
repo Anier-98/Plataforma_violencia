@@ -3,7 +3,7 @@
 <html lang="es">
 
   <head>
-    <title> DHAMBA &mdash; Plataforma de denuncias</title>
+    <title> DHAMBHA &mdash; Plataforma de denuncias</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -47,7 +47,7 @@
 
             <div class="col-3">
               <div class="site-logo">
-                <a href="index.php"><strong>DHAMBA</strong></a>
+                <a href="index.php"><strong>DHAMBHA</strong></a>
               </div>
             </div>
 
@@ -78,7 +78,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-10 text-center">
-              <h1><strong>DHAMBA</strong><strong></strong></h1>
+              <h1><strong>DHAMBHA</strong><strong></strong></h1>
               <h1>Contra la violencia y discriminación</h1>
             </div>
           </div>
@@ -95,7 +95,7 @@
                   <div class="text">
                     <a href="#" class="category">Información</a>
                     <h3><a href="#">¿Quiénes somos?</a></h3>
-                    <p class="mb-1">DHAMBA es una plataforma destinada a facilitar el proceso de denuncia sobre violencia y discriminación en la comunidad universitaria de URACCAN Recinto - Las Minas.</p>
+                    <p class="mb-1">DHAMBHA es una plataforma destinada a facilitar el proceso de denuncia sobre violencia y discriminación en la comunidad universitaria de URACCAN Recinto - Las Minas.</p>
                     <p class="mb-0">
                       <span class="brand-ceimm"></span>
                       <span class="brand-logo-ceimm"></span>
@@ -151,7 +151,7 @@
                 <div class="card" style="width: 20rem;">
                   <img src="images/logo-ceimm.png" class="card-img-top" alt="...">
                   <div class="card-body" style="background-color: rgb(231, 231, 231);">
-                    <strong class="card-text" style="width:100%;display:inline-block;text-align: center;color:#0779e4;font-size:22px; ">CEIM</strong>
+                    <strong class="card-text" style="width:100%;display:inline-block;text-align: center;color:#0779e4;font-size:22px; ">CEIMM</strong>
                   </div>
                 </div>
               </div>
