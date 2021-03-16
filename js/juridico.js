@@ -6,6 +6,6 @@ b1.addEventListener('click',mostrar_regla_estudiantil);
 function mostrar_regla_estudiantil(){
     juridico = document.getElementById("mj").hidden= false;
     window.location.href='#mj';
-    juridico.focus();
+    juridico.focus;
 }
 
