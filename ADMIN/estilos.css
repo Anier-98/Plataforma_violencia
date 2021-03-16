@@ -20,7 +20,7 @@
     background-color: greenyellow;
     float: right;
     width: 68.9%;
-    height: 80px;
+    height: 75px;
 }
 #lista{
     font-size: 20px;
@@ -40,9 +40,18 @@
     margin-top: 12px;
     margin-left: 10px;
     font-family: 'Roboto', sans-serif;
-}
+}   
 #show{
     width: 100%;
-    height: 20px;
+    height: 10px;
     background-color: yellow;
+}
+#sect{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border: solid 1px gray;
+}
+#AddUsr,formUserAdd{
+    width: 100%;s
 }
