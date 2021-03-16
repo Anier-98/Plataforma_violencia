@@ -1,0 +1,13 @@
+#formlg{
+
+}
+#cont{
+    padding: 30px;
+    box-shadow: 5px 15px 12px rgba(77, 68, 209, 0.411);
+    border-top: rgb(223, 221, 221) solid 1px;
+}
+body{
+    background-image: url(../images/bacg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
