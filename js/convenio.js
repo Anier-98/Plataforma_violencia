@@ -4,6 +4,9 @@ b5.addEventListener('click',mostrar_derechos_humanos);
 
 function mostrar_derechos_humanos(){
     humano = document.getElementById("dh").hidden= false;
-    window.location.href='#dh';
 
+    var juri = document.getElementById("ri").hidden = true;
+    var jur = document.getElementById("bp").hidden = true;
+    var jur= document.getElementById("vm").hidden = true;
+    var j = document.getElementById("mj").hidden = true;
 }

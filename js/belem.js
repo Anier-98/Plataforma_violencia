@@ -4,6 +4,9 @@ b3.addEventListener('click',mostrar_belem);
 
 function mostrar_belem(){
     belem = document.getElementById("bp").hidden= false;
-    window.location.href='#bp';
-    belem.focus();
+    var juri = document.getElementById("ri").hidden = true;
+    var jur = document.getElementById("mj").hidden = true;
+    var jur= document.getElementById("vm").hidden = true;
+    var j = document.getElementById("dh").hidden = true;
+
 }
