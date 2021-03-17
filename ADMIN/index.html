@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl.theme.default.min.css">
     <link rel="stylesheet" href="../css/aos.css">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="acmincss.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-light bg-dark">
@@ -43,7 +44,7 @@
                   Funciones del sistema
                 </a>
                 <a href="#" class="list-group-item list-group-item-action">Ir a página principal</a>
-                <a href="#" class="list-group-item list-group-item-action">Lista de usuarios</a>
+                <a href="#" class="list-group-item list-group-item-action">Usuarios</a>
                 <a href="#" class="list-group-item list-group-item-action">Lista de denuncias</a>
                 <a href="#" class="list-group-item list-group-item-action">Copias de seguridad</a>
                 <a href="#" class="list-group-item list-group-item-action">Ajustes</a>
@@ -64,28 +65,32 @@
             </header>
             <div id="show"></div>
             <section id="sect">
-                <div id="resultados">
                     <div id="AddUsr">
-                        <form action="" id="formUserAdd">
+                        <form action="" id="formuser">
+                            <label id="hd" for="">Registro y modificación de usuarios</label>
                             <div id="form-header">
-                                <a href="">Agregar</a>
-                                <a href="">Editar</a>
-                                <a href="">Eliminar</a>
+                                <a class="aa1" href="">Guardar</a>
+                                <a class="aa2" href="">Editar</a>
+                                <a class="aa3" href="">Eliminar</a>
                             </div>
                             <div id="form-main">
-                                <label for="">Id de usuario</label><br>
-                                <input type="text" name="" id="">
-                                <label for="">Id de usuario</label><br>
-                                <input type="text" name="" id="">
-                                <label for="">Id de usuario</label><br>
-                                <input type="text" name="" id="">
-                                <label for="">Id de usuario</label><br>
-                                <input type="text" name="" id="">
-                                <label for="">Id de usuario</label><br>
-                                <input type="text" name="" id="">
+                                <label class="lbl" for="">Ingrese código de usuario</label>
+                                <input type="text" name="" id="" class="txt">
+                                <label class="lbl" for="">Ingrese nombre de usuario</label>
+                                <input type="text" name="" id="" class="txt">
+                                <div id="row" class=" row ">
+                                    <select name="" id="cbsexo"  class="cb">
+                                        <option value="">Masculino</option>
+                                        <option value="">Femenino</option>
+                                    </select>
+                                    <select name="" id="cbadmin" class="cb">
+                                        <option value="">Administrador</option>
+                                        <option value="">Particular</option>
+                                    </select>
+                                    <input type="number" name="" id="" class="txt1" placeholder="Númer de teléfono">
+                                </div>  
                             </div>
                         </form>
-                    </div>
                 </div>
             </section>
         </div>
