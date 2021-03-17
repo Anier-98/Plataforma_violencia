@@ -44,16 +44,17 @@
 #show{
     width: 100%;
     height: 10px;
-    background-color: yellow;
+    background-color: rgb(240, 171, 61);
 }
 #sect{
     width: 100%;
-    height: auto;
+    height:     auto;
     margin-top: 15px;
     border: solid 1px rgb(170, 170, 170);
     padding: 20px;
+
 }
-#formuser{
+#formuser,#formEdit{
     background-color: rgb(246, 246, 246);
     width: 80%;
     height: auto;
@@ -64,8 +65,20 @@
     box-shadow: 5px 10px 10px rgba(77, 68, 209, 0.411);
     border-radius: 15px;
 }
-#AddUsr{
+#formEdit{
+    margin-top: 30px;
+    border-top: none;
+    overflow-y: scroll;
+    height: 310px;
+}
+#AddUsr,#Litar_usuarios{
     width: 100%;
+    display: grid;
+    place-items: center;
+}
+#Litar_usuarios{
+    width: 100%;
+    border-top: none;
 }
 #form-main{
     width: 80%;
@@ -76,6 +89,12 @@
     margin-top: 14px;
 }
 #hd{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(65, 65, 65);
+}
+.hdC{
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -173,4 +192,22 @@
 #row{
     width: 100%;display:inline-block;margin: 15px;
     margin-top: -5px;
+}
+.table{
+    width: 80%;
+}
+.table-h{
+    font-size: 20px;
+    color: rgb(66, 65, 65);
+    text-align: center;
+}
+.tr{
+    border-right: solid 1px rgb(214, 213, 213);
+    text-align: center;
+}
+.trr{
+    text-align: center;
+}
+#usr_img{
+    width: 70px;
 }
