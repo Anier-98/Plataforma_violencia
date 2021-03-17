@@ -6,3 +6,9 @@ font-size: 15px;
 color: white;
 text-align: start;
 }   
+#r,#c,#i,#l,#d{
+font-size: 20px;
+color:black;
+text-align: center;
+font-weight: bold;
+}
