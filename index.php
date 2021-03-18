@@ -181,7 +181,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="col-lg-4 mb-4 mb-lg-3">
             <div class="testimonial-2">
               <h3 class="h5">Programador</h3>
               <div>
@@ -204,7 +204,32 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 mb-4 mb-lg-0">
+
+          <div class="col-lg-4 mb-4 mb-lg-3">
+            <div class="testimonial-2">
+              <h3 class="h5">Programador</h3>
+              <div>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+                <span class="icon-star text-warning"></span>
+              </div>
+              
+              <blockquote class="mb-4">
+                <p>"Estudiante de ingeniería en sistemas 5to año URACCAN recinto Las Minas, programador del sitio"</p>
+              </blockquote>
+              <div class="d-flex v-card align-items-center">
+                <img src="images/avatarhombre.jpg" alt="Image" class="img-fluid mr-3">
+                <div class="author-name">
+                  <span class="d-block">Henry Diaz</span>
+                  <span>Programming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-3">
             <div class="testimonial-2">
               <h3 class="h5">Mentor</h3>
               <div>
