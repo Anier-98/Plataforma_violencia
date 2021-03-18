@@ -116,15 +116,15 @@
                 <div class="d-flex align-items-center mb-4">
                   <div class="img"><img src="images/unnamed_(1).png" class="img-fluid" alt="Image"></div>
                   <div class="text">
-                    <a href="#" class="category">Descubrí si vivís violencia</a>
-                    <h3><a href="#">Realiza tu test</a></h3>
+                    <a href="test.html" class="category">Descubrí si vivís violencia</a>
+                    <h3><a href="test.html">Realiza tu test</a></h3>
                   </div>
                 </div>
                 <div class="d-flex align-items-center">
                   <div class="img"><img src="images/denuncia-aqui.png" class="img-fluid" alt="Image"></div>
                   <div class="text">
-                    <a href="Denuncia.php" class="category">Denunciá aquí</a>
-                    <h3><a href="Denuncia.php">Llena el siguiente formato, Pox|r favor</a></h3>
+                    <a href="Denuncia.html" class="category">Denunciá aquí</a>
+                    <h3><a href="Denuncia.html">Llena el siguiente formato, Pox|r favor</a></h3>
                   </div>
                 </div>
               </div>
